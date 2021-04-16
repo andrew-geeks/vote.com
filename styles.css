@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: lightgreen;
+}
+
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.tn-main{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    
+}
+
+.tn-s{
+    padding-left: 1140px;
+    overflow: hidden;
+}
+.tn-1{
+    color: white;
+    font-size: 20px;
+}
+
+.tn-1:hover{
+    background-color: white;
+    color: black;
+}
+
+.tn-2{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.tn-2:hover{
+    background-color: white;
+    color: black;
+}
