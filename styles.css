@@ -3,39 +3,21 @@ body{
     background-color: lightgreen;
 }
 
-.topnav{
-    background-color: black;
-    overflow: hidden;
+#top{
+    background-color: blue;
 }
 
-.tn-main{
-    color: white;
-    font-size: 30px;
-    padding-left: 10px;
-    
+/*Navigation*/
+.navbar-nav{
+    padding-right: 20px;
 }
 
-.tn-s{
-    padding-left: 1140px;
-    overflow: hidden;
-}
-.tn-1{
-    color: white;
-    font-size: 20px;
+.nav-link{
+    padding-left: 5px;
 }
 
-.tn-1:hover{
-    background-color: white;
-    color: black;
-}
+/*Poll Side*/
 
-.tn-2{
-    color: white;
-    font-size: 20px;
-    padding-left: 10px;
-}
+.rw1{
 
-.tn-2:hover{
-    background-color: white;
-    color: black;
 }
