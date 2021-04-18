@@ -25,10 +25,13 @@ body{
 
 .rw1{
     padding-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 180px;
     text-align: center;
 }
 
+.cn{
+    padding-bottom: 15px;
+}
 .btn{
     position: relative;
     background-color: #4CAF50;
