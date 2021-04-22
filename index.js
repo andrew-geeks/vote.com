@@ -1,6 +1,12 @@
 var c1_votes=0;
 var c2_votes=0;
 var c3_votes=0;
+sessionStorage.setItem("poll-name","Poll name");
+sessionStorage.setItem("cn1-name","Candidate 1");
+sessionStorage.setItem("cn2-name","Candidate 2");
+sessionStorage.setItem("cn3-name","Candidate 3");
+
+
 
 $(".btn-1").click(function(){
     c1_votes++;
@@ -22,8 +28,9 @@ $(".btn-3").click(function(){
 
 $(".save-btn").click(function(){
     console.log("success");
+    
   })
 
 
-  
+ 
 

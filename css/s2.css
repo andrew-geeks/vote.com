@@ -73,3 +73,18 @@ body{
     transition: 0s
     
   }
+
+
+  /*Footer*/
+  #footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+.link-icon{
+    color: black;
+    font-size: 25px;
+    padding-right: 10px;
+}
