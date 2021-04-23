@@ -1,10 +1,41 @@
 var c1_votes=0;
 var c2_votes=0;
 var c3_votes=0;
-sessionStorage.setItem("poll-name","Poll name");
-sessionStorage.setItem("cn1-name","Candidate 1");
-sessionStorage.setItem("cn2-name","Candidate 2");
-sessionStorage.setItem("cn3-name","Candidate 3");
+var poll_name="";
+var cand_1="";
+var cand_2="";
+var cand_3="";
+
+if(sessionStorage.getItem("poll-name")==null){
+
+}
+else{
+    $(".poll-name").text(sessionStorage.getItem("poll-name"));
+}
+
+if(sessionStorage.getItem("c1-name")==null){
+
+}
+else{
+    $("#cn-1").text(sessionStorage.getItem("c1-name"));
+}
+
+if(sessionStorage.getItem("c2-name")==null){
+
+}
+else{
+    $("#cn-2").text(sessionStorage.getItem("c2-name"));
+}
+
+if(sessionStorage.getItem("c3-name")==null){
+
+}
+else{
+    $("#cn-3").text(sessionStorage.getItem("c3-name"));
+}
+
+
+
 
 
 
@@ -27,8 +58,16 @@ $(".btn-3").click(function(){
 })
 
 $(".save-btn").click(function(){
-    console.log("success");
-    
+    poll_name=document.getElementById("pl-input").value;
+    cand_1=document.getElementById("cn1-inp").value;
+    cand_2=document.getElementById("cn2-inp").value;
+    cand_3=document.getElementById("cn3-inp").value;
+    sessionStorage.setItem("poll-name",poll_name);
+    sessionStorage.setItem("c1-name",cand_1);
+    sessionStorage.setItem("c2-name",cand_2);
+    sessionStorage.setItem("c3-name",cand_3);
+    window.location.href = 'index.html';
+
   })
 
 
