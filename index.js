@@ -11,6 +11,7 @@ if(sessionStorage.getItem("poll-name")==null){
 }
 else{
     $(".poll-name").text(sessionStorage.getItem("poll-name"));
+    $(".poll-name-res").text(sessionStorage.getItem("poll-name"));
 }
 
 if(sessionStorage.getItem("c1-name")==null){
@@ -18,6 +19,7 @@ if(sessionStorage.getItem("c1-name")==null){
 }
 else{
     $("#cn-1").text(sessionStorage.getItem("c1-name"));
+    $(".c1-nme").text(sessionStorage.getItem("c1-name")+":");
 }
 
 if(sessionStorage.getItem("c2-name")==null){
@@ -25,6 +27,7 @@ if(sessionStorage.getItem("c2-name")==null){
 }
 else{
     $("#cn-2").text(sessionStorage.getItem("c2-name"));
+    $(".c2-nme").text(sessionStorage.getItem("c2-name")+":");
 }
 
 if(sessionStorage.getItem("c3-name")==null){
@@ -32,7 +35,30 @@ if(sessionStorage.getItem("c3-name")==null){
 }
 else{
     $("#cn-3").text(sessionStorage.getItem("c3-name"));
+    $(".c3-nme").text(sessionStorage.getItem("c3-name")+":");
 }
+
+if(sessionStorage.getItem("c1_votes")==null){
+
+}
+else{
+    $(".c1-votes").text(sessionStorage.getItem("c1_votes")+" votes");
+}
+
+if(sessionStorage.getItem("c2_votes")==null){
+
+}
+else{
+    $(".c2-votes").text(sessionStorage.getItem("c2_votes")+" votes");
+}
+
+if(sessionStorage.getItem("c3_votes")==null){
+
+}
+else{
+    $(".c3-votes").text(sessionStorage.getItem("c3_votes")+" votes");
+}
+
 
 
 
